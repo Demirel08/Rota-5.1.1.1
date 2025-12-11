@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python main.py:*)",
+      "Bash(dir /s /b *.py)",
+      "Bash(findstr:*)",
+      "Bash(sqlite3:*)",
+      "Bash(python3:*)",
+      "Bash(python:*)",
+      "Bash(dir:*)",
+      "Bash(timeout 3 echo:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
